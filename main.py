@@ -22,7 +22,7 @@ chatbot = ChatBot(
 
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train("chatterbot.corpus.english")
-trainer.train("/home/tommy/my_corpus.yml")
+trainer.train("my_custom_corpus.yml")
 
 conversation_history = []
 
